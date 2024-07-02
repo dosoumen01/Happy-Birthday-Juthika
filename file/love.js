@@ -162,13 +162,13 @@
             ctx.scale(scale, scale);
             ctx.moveTo(0, 0);
     	    ctx.lineTo(15, 15);
-    	    ctx.lineTo(130, 15);
+    	    ctx.lineTo(78.5, 15);
             ctx.stroke();
 
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px,Verdana";
-            ctx.shadowColor = 'rgba(255, 255, 255, 0.8)'; // Glow color
+            ctx.shadowColor = 'rgba(255, 255, 255, 1)'; // Glow color
             ctx.shadowBlur = 11; 
             ctx.fillText("Click Me:) ", 30, -5);
             ctx.fillText("Birthday Queen !", 28, 10);
